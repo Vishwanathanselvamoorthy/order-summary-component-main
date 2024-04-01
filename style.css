@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Red Hat Display;
+}
+body {
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+.main-container {
+  width: 412px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+.main-container .hero-img {
+  width: 100%;
+  border-radius: 20px;
+}
+.main-container .text-container {
+  padding: 20px;
+}
+.main-container h1 {
+  margin: 20px 0px;
+  font-size: 30px;
+}
+.main-container .main-para {
+  margin: 20px 0px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  margin: 15px 0px;
+}
+.main-container .flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 20px;
+  padding: 15px 30px;
+  margin: 15px 0px;
+}
+.main-container .flex-container .plan-para {
+  color: black;
+  font-weight: 800;
+  font-size: 18px;
+}
+.main-container .flex-container p span {
+  display: block;
+  font-weight: 600;
+}
+.main-container .flex-container .change-para {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 18px;
+}
+.main-container button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(245, 75%, 52%);
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+  margin: 15px 0px;
+}
+.main-container .cancel-para {
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  font-size: 18px;
+  margin: 10px 0px;
+}
